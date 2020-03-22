@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lFuerzaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vNivel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bAccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="&gt;&gt;vNivel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="vResistencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="lMascotaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1</value>
+  </data>
+  <data name="sBEstado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 272</value>
+  </data>
+  <data name="rBBajo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 190</value>
+  </data>
+  <data name="&gt;&gt;vResistencia.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lDestrezaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="&gt;&gt;vDestrezaPropia.Name" xml:space="preserve">
+    <value>vDestrezaPropia</value>
+  </data>
+  <data name="&gt;&gt;lInteligencia.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pBVida.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;sBEstado.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lResistenciaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 45</value>
+  </data>
+  <data name="&gt;&gt;vInteligenciaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lNivelPropio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSalir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMascotaRemota.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 10pt</value>
+  </data>
+  <data name="lAccion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="lMascotaRemota.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 15</value>
+  </data>
+  <data name="vFuerza.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="pBVidaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="&gt;&gt;vFuerzaPropia.Name" xml:space="preserve">
+    <value>vFuerzaPropia</value>
+  </data>
+  <data name="pActividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;lDestrezaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="sBEstado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="pBVidaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 10</value>
+  </data>
+  <data name="lNivelPropio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;vResistenciaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="vFuerzaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="&gt;&gt;vNivel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lInteligenciaPropia.Text" xml:space="preserve">
+    <value>Inteligencia:</value>
+  </data>
+  <data name="lResistenciaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="&gt;&gt;vDestreza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vNivelPropio.Name" xml:space="preserve">
+    <value>vNivelPropio</value>
+  </data>
+  <data name="lNivel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="lMascotaRemota.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="lFuerzaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="lNivel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;lResistencia.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lFuerza.Text" xml:space="preserve">
+    <value>Fuerza:</value>
+  </data>
+  <data name="bAccion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 164</value>
+  </data>
+  <data name="pActividad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 220</value>
+  </data>
+  <data name="lNivel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="&gt;&gt;pActividad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lFuerzaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lInteligencia.Name" xml:space="preserve">
+    <value>lInteligencia</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pBVidaPropia.Name" xml:space="preserve">
+    <value>pBVidaPropia</value>
+  </data>
+  <data name="&gt;&gt;vFuerza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bEnviar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vResistenciaPropia.Name" xml:space="preserve">
+    <value>vResistenciaPropia</value>
+  </data>
+  <data name="vNivel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lMascotaRemota.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pActividad.Name" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="&gt;&gt;sBEstado.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rBBajo.Text" xml:space="preserve">
+    <value>Bajo</value>
+  </data>
+  <data name="&gt;&gt;bSalir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lMascotaRemota.Name" xml:space="preserve">
+    <value>lMascotaRemota</value>
+  </data>
+  <data name="&gt;&gt;pBImagenMascota.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vInteligenciaPropia.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="vNivelPropio.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="rBMedio.Text" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="&gt;&gt;lFuerza.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="vNivel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="&gt;&gt;bEnviar.Name" xml:space="preserve">
+    <value>bEnviar</value>
+  </data>
+  <data name="&gt;&gt;bAccion.Name" xml:space="preserve">
+    <value>bAccion</value>
+  </data>
+  <data name="&gt;&gt;lResistencia.Name" xml:space="preserve">
+    <value>lResistencia</value>
+  </data>
+  <data name="rBAlto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="rBAlto.Text" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="&gt;&gt;pBImagenMascota.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lMascotaPropia.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lAccion.Name" xml:space="preserve">
+    <value>lAccion</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 27</value>
+  </data>
+  <data name="lAccion.Text" xml:space="preserve">
+    <value>ACCIÓN</value>
+  </data>
+  <data name="pBVida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 10</value>
+  </data>
+  <data name="vInteligenciaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 61</value>
+  </data>
+  <data name="&gt;&gt;lNivelPropio.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="rBBajo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 106</value>
+  </data>
+  <data name="&gt;&gt;rBBajo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;vDestreza.Name" xml:space="preserve">
+    <value>vDestreza</value>
+  </data>
+  <data name="rBMedio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="&gt;&gt;lNivel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="vResistenciaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 45</value>
+  </data>
+  <data name="&gt;&gt;vResistencia.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;vNivel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vResistenciaPropia.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;vInteligencia.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="bEnviar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rBBajo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt</value>
+  </data>
+  <data name="sBEstado.Text" xml:space="preserve">
+    <value>Esperando enviar y recibir datos mascota</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bSalir.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rBAlto.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="&gt;&gt;lFuerzaPropia.Name" xml:space="preserve">
+    <value>lFuerzaPropia</value>
+  </data>
+  <data name="vDestreza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 75</value>
+  </data>
+  <data name="bEnviar.Text" xml:space="preserve">
+    <value>Enviar Mascota</value>
+  </data>
+  <data name="&gt;&gt;lNivelPropio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;bAccion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMascotaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBVida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="&gt;&gt;pBVidaPropia.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="vResistencia.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="vDestrezaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="&gt;&gt;rBAlto.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="vDestreza.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;vFuerza.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="lDestreza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="&gt;&gt;vNivel.Name" xml:space="preserve">
+    <value>vNivel</value>
+  </data>
+  <data name="lNivelPropio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="&gt;&gt;pBVidaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lMascotaRemota.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNivel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMascotaPropia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lResistencia.Text" xml:space="preserve">
+    <value>Resistencia:</value>
+  </data>
+  <data name="&gt;&gt;lFuerza.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;vDestrezaPropia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;vNivelPropio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rBMedio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vNivelPropio.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bEnviar.Parent" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vDestreza.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;vDestrezaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lResistenciaPropia.Text" xml:space="preserve">
+    <value>Resistencia:</value>
+  </data>
+  <data name="&gt;&gt;bEnviar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lNivelPropio.Text" xml:space="preserve">
+    <value>Nivel:</value>
+  </data>
+  <data name="vResistencia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="lInteligencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 62</value>
+  </data>
+  <data name="&gt;&gt;vInteligencia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>VentanaBatalla</value>
+  </data>
+  <data name="&gt;&gt;lResistenciaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMascotaRemota.Text" xml:space="preserve">
+    <value>Mascota Remota</value>
+  </data>
+  <data name="&gt;&gt;sBEstado.Name" xml:space="preserve">
+    <value>sBEstado</value>
+  </data>
+  <data name="lMascotaPropia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lNivel.Name" xml:space="preserve">
+    <value>lNivel</value>
+  </data>
+  <data name="&gt;&gt;lInteligenciaPropia.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;bSalir.Parent" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 105</value>
+  </data>
+  <data name="lResistencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="vNivelPropio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="bAccion.Text" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="vNivelPropio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.Name" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="&gt;&gt;lResistenciaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;rBBajo.Name" xml:space="preserve">
+    <value>rBBajo</value>
+  </data>
+  <data name="vNivel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;vDestrezaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vInteligenciaPropia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bSalir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 33</value>
+  </data>
+  <data name="vResistenciaPropia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;rBBajo.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="rBBajo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lResistencia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vFuerza.Name" xml:space="preserve">
+    <value>vFuerza</value>
+  </data>
+  <data name="&gt;&gt;lInteligenciaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="vInteligencia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VentanaBatalla</value>
+  </data>
+  <data name="bEnviar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;lDestreza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBVida.Name" xml:space="preserve">
+    <value>pBVida</value>
+  </data>
+  <data name="&gt;&gt;lAccion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSalir.Name" xml:space="preserve">
+    <value>bSalir</value>
+  </data>
+  <data name="rBAlto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="vNivel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 16</value>
+  </data>
+  <data name="bSalir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="lDestreza.Text" xml:space="preserve">
+    <value>Destreza:</value>
+  </data>
+  <data name="rBMedio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 164</value>
+  </data>
+  <data name="vDestrezaPropia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 294</value>
+  </data>
+  <data name="&gt;&gt;pBImagenMascota.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="vResistencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 46</value>
+  </data>
+  <data name="vDestreza.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;vFuerzaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lDestreza.Name" xml:space="preserve">
+    <value>lDestreza</value>
+  </data>
+  <data name="&gt;&gt;lDestreza.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bAccion.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rBMedio.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rBBajo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vFuerza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 30</value>
+  </data>
+  <data name="&gt;&gt;vInteligenciaPropia.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="vInteligencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="lInteligencia.Text" xml:space="preserve">
+    <value>Inteligencia:</value>
+  </data>
+  <data name="&gt;&gt;vDestreza.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lNivel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pActividad.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="vFuerza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="&gt;&gt;bAccion.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="vDestrezaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 74</value>
+  </data>
+  <data name="lAccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 21</value>
+  </data>
+  <data name="&gt;&gt;lDestreza.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;vFuerza.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lInteligencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="&gt;&gt;rBAlto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vNivelPropio.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lFuerzaPropia.Text" xml:space="preserve">
+    <value>Fuerza:</value>
+  </data>
+  <data name="&gt;&gt;pBVida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lResistencia.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lDestrezaPropia.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;vResistenciaPropia.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="vInteligencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 62</value>
+  </data>
+  <data name="&gt;&gt;vFuerzaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="bSalir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 4</value>
+  </data>
+  <data name="lMascotaPropia.Text" xml:space="preserve">
+    <value>Mascota Propia</value>
+  </data>
+  <data name="bAccion.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rBMedio.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="lAccion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="vDestreza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="lResistencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="lDestrezaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 77</value>
+  </data>
+  <data name="rBMedio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt</value>
+  </data>
+  <data name="vNivelPropio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="&gt;&gt;lFuerzaPropia.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lDestrezaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lDestrezaPropia.Name" xml:space="preserve">
+    <value>lDestrezaPropia</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="&gt;&gt;lMascotaRemota.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="lMascotaRemota.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lAccion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;bAccion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="vResistenciaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="&gt;&gt;vResistencia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sBEstado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rBAlto.Name" xml:space="preserve">
+    <value>rBAlto</value>
+  </data>
+  <data name="vFuerzaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 29</value>
+  </data>
+  <data name="&gt;&gt;vInteligenciaPropia.Name" xml:space="preserve">
+    <value>vInteligenciaPropia</value>
+  </data>
+  <data name="pOpciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 43</value>
+  </data>
+  <data name="lNivelPropio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="lFuerza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="&gt;&gt;pBVidaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pActividad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="vFuerzaPropia.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;vResistencia.Name" xml:space="preserve">
+    <value>vResistencia</value>
+  </data>
+  <data name="&gt;&gt;lInteligencia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rBAlto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt</value>
+  </data>
+  <data name="pBImagenMascota.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 88</value>
+  </data>
+  <data name="lMascotaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 15</value>
+  </data>
+  <data name="&gt;&gt;vInteligencia.Name" xml:space="preserve">
+    <value>vInteligencia</value>
+  </data>
+  <data name="&gt;&gt;lAccion.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vFuerzaPropia.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lResistenciaPropia.Name" xml:space="preserve">
+    <value>lResistenciaPropia</value>
+  </data>
+  <data name="lFuerza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="lDestreza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 78</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="&gt;&gt;vFuerzaPropia.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;vInteligenciaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lFuerzaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="pOpciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 225</value>
+  </data>
+  <data name="rBAlto.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bEnviar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 33</value>
+  </data>
+  <data name="&gt;&gt;lFuerza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rBMedio.Name" xml:space="preserve">
+    <value>rBMedio</value>
+  </data>
+  <data name="&gt;&gt;lNivelPropio.Name" xml:space="preserve">
+    <value>lNivelPropio</value>
+  </data>
+  <data name="&gt;&gt;lFuerza.Name" xml:space="preserve">
+    <value>lFuerza</value>
+  </data>
+  <data name="lInteligenciaPropia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="&gt;&gt;vNivelPropio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lInteligenciaPropia.Name" xml:space="preserve">
+    <value>lInteligenciaPropia</value>
+  </data>
+  <data name="lInteligenciaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="vDestrezaPropia.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pBVida.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lNivel.Text" xml:space="preserve">
+    <value>Nivel:</value>
+  </data>
+  <data name="&gt;&gt;lResistenciaPropia.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pBImagenMascota.Name" xml:space="preserve">
+    <value>pBImagenMascota</value>
+  </data>
+  <data name="&gt;&gt;vInteligencia.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="vInteligencia.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lMascotaPropia.Name" xml:space="preserve">
+    <value>lMascotaPropia</value>
+  </data>
+  <data name="pBImagenMascota.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 132</value>
+  </data>
+  <data name="&gt;&gt;rBMedio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lAccion.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lDestrezaPropia.Text" xml:space="preserve">
+    <value>Destreza:</value>
+  </data>
+  <data name="&gt;&gt;lMascotaPropia.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lInteligenciaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vResistenciaPropia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vFuerza.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lInteligencia.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>pActividad</value>
+  </data>
+  <data name="vInteligenciaPropia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>POCKET_PC_2003_PORTRAIT</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Spanish (Spain)</value>
+  </metadata>
+</root>

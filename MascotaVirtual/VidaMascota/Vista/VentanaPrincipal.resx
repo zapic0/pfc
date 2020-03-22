@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bConexiones.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.Name" xml:space="preserve">
+    <value>tEducadores</value>
+  </data>
+  <data name="&gt;&gt;LEducacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBSalud.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;segundo.Name" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="&gt;&gt;LDiversion.Name" xml:space="preserve">
+    <value>LDiversion</value>
+  </data>
+  <data name="&gt;&gt;bUsar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LHigiene.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tEducadores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="&gt;&gt;LNumeroNivel.Name" xml:space="preserve">
+    <value>LNumeroNivel</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBSalud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 10</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;mIOtros.Name" xml:space="preserve">
+    <value>mIOtros</value>
+  </data>
+  <data name="&gt;&gt;BJuegos.Parent" xml:space="preserve">
+    <value>PBotones</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;bConexiones.Name" xml:space="preserve">
+    <value>bConexiones</value>
+  </data>
+  <data name="pInventario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="lTextoCapacidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 153</value>
+  </data>
+  <data name="mIPatito.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MenuVentanaPrincipal.Name" xml:space="preserve">
+    <value>MenuVentanaPrincipal</value>
+  </data>
+  <data name="&gt;&gt;PInformacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mICompras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBHambre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 10</value>
+  </data>
+  <data name="tAlimentos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;LSalud.Name" xml:space="preserve">
+    <value>LSalud</value>
+  </data>
+  <data name="&gt;&gt;pBPuntosVida.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;lDinero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBSalud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 15</value>
+  </data>
+  <data name="tAlimentos.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PGraficos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pBSalud.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tCuraciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="LSalud.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mIPildora.Text" xml:space="preserve">
+    <value>Píldora (50)</value>
+  </data>
+  <data name="bConexiones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 4</value>
+  </data>
+  <data name="&gt;&gt;tInventario.Name" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="lDinero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 32</value>
+  </data>
+  <data name="bUsar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="tEducadores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;MIOpciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBDinero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="pBSeleccionado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 134</value>
+  </data>
+  <data name="LSalud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 12</value>
+  </data>
+  <data name="LDiversion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="&gt;&gt;pBDiversion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pInventario.Name" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;BVerInventario.Name" xml:space="preserve">
+    <value>BVerInventario</value>
+  </data>
+  <data name="&gt;&gt;mILimpieza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mIBocadillo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LNumeroNivel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="tCuraciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lDinero.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;mIPildora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;bUsar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mICuraciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LNivel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt, style=Bold</value>
+  </data>
+  <data name="pBDiversion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 43</value>
+  </data>
+  <data name="tAlimentos.Text" xml:space="preserve">
+    <value>Alimentos</value>
+  </data>
+  <data name="&gt;&gt;MIOpciones.Name" xml:space="preserve">
+    <value>MIOpciones</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.Name" xml:space="preserve">
+    <value>lCapacidad</value>
+  </data>
+  <data name="&gt;&gt;LHambre.Name" xml:space="preserve">
+    <value>LHambre</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.Name" xml:space="preserve">
+    <value>lTextoCapacidad</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pBDiversion.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tLimpiadores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LNivel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 12</value>
+  </data>
+  <data name="&gt;&gt;graficoAnimacion.Parent" xml:space="preserve">
+    <value>PGraficos</value>
+  </data>
+  <data name="&gt;&gt;BJuegos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lTextoCapacidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="&gt;&gt;tOtros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDiversion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LHambre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pBHigiene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 15</value>
+  </data>
+  <data name="LSalud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 0</value>
+  </data>
+  <data name="lDinero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="&gt;&gt;pBDinero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lCapacidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 167</value>
+  </data>
+  <data name="&gt;&gt;PInformacion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MIArchivo.Text" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="&gt;&gt;mICompras.Name" xml:space="preserve">
+    <value>mICompras</value>
+  </data>
+  <data name="LPuntosVida.Text" xml:space="preserve">
+    <value>Vida:</value>
+  </data>
+  <data name="graficoAnimacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 188</value>
+  </data>
+  <data name="BVerInventario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 15</value>
+  </data>
+  <data name="bEliminar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 161</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tOtros.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="LEducacion.Text" xml:space="preserve">
+    <value>Educación:</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.Name" xml:space="preserve">
+    <value>tLimpiadores</value>
+  </data>
+  <data name="&gt;&gt;LNivel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lFps.Name" xml:space="preserve">
+    <value>lFps</value>
+  </data>
+  <data name="&gt;&gt;LPuntosVida.Name" xml:space="preserve">
+    <value>LPuntosVida</value>
+  </data>
+  <data name="pBPuntosVida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 10</value>
+  </data>
+  <data name="&gt;&gt;pBEducacion.Name" xml:space="preserve">
+    <value>pBEducacion</value>
+  </data>
+  <data name="tEducadores.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mIPatito.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MIVerInventario.Name" xml:space="preserve">
+    <value>MIVerInventario</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mIBotiquin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBHambre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bUsar.Name" xml:space="preserve">
+    <value>bUsar</value>
+  </data>
+  <data name="mICerebro.Text" xml:space="preserve">
+    <value>Cerebro (50)</value>
+  </data>
+  <data name="mIPildora.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mIBotiquin.Text" xml:space="preserve">
+    <value>Botiquín (90)</value>
+  </data>
+  <data name="&gt;&gt;LHigiene.Name" xml:space="preserve">
+    <value>LHigiene</value>
+  </data>
+  <data name="tOtros.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tLimpiadores.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PInformacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 56</value>
+  </data>
+  <data name="BVerInventario.Text" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="&gt;&gt;LEducacion.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="LSalud.Text" xml:space="preserve">
+    <value>Salud:</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;LEducacion.Name" xml:space="preserve">
+    <value>LEducacion</value>
+  </data>
+  <data name="tCuraciones.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mILimpieza.Name" xml:space="preserve">
+    <value>mILimpieza</value>
+  </data>
+  <data name="BJuegos.Text" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
+  <data name="graficoAnimacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="BJuegos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 4</value>
+  </data>
+  <data name="&gt;&gt;pBDinero.Name" xml:space="preserve">
+    <value>pBDinero</value>
+  </data>
+  <data name="MISalir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="&gt;&gt;lDinero.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LHambre.Text" xml:space="preserve">
+    <value>Hambre:</value>
+  </data>
+  <data name="&gt;&gt;pBHambre.Name" xml:space="preserve">
+    <value>pBHambre</value>
+  </data>
+  <data name="pBHambre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="mITermometro.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LNumeroNivel.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;LHambre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pInventario.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;graficoAnimacion.Name" xml:space="preserve">
+    <value>graficoAnimacion</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.Name" xml:space="preserve">
+    <value>tAlimentos</value>
+  </data>
+  <data name="&gt;&gt;segundo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lNombreSeleccionado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 134</value>
+  </data>
+  <data name="bUsar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 133</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="PBotones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="&gt;&gt;LNumeroNivel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bUsar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="bConexiones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 15</value>
+  </data>
+  <data name="LHigiene.Text" xml:space="preserve">
+    <value>Higiene:</value>
+  </data>
+  <data name="&gt;&gt;pBPuntosVida.Name" xml:space="preserve">
+    <value>pBPuntosVida</value>
+  </data>
+  <data name="&gt;&gt;bUsar.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="BVerInventario.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lCapacidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="&gt;&gt;mICerebro.Name" xml:space="preserve">
+    <value>mICerebro</value>
+  </data>
+  <data name="&gt;&gt;mIPildora.Name" xml:space="preserve">
+    <value>mIPildora</value>
+  </data>
+  <data name="BJuegos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 15</value>
+  </data>
+  <data name="LNumeroNivel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 13</value>
+  </data>
+  <data name="&gt;&gt;tInventario.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="tOtros.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mIBotiquin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lDinero.Name" xml:space="preserve">
+    <value>lDinero</value>
+  </data>
+  <data name="&gt;&gt;pBHigiene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mICuraciones.Text" xml:space="preserve">
+    <value>Curaciones</value>
+  </data>
+  <data name="BVerInventario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 4</value>
+  </data>
+  <data name="&gt;&gt;BJuegos.Name" xml:space="preserve">
+    <value>BJuegos</value>
+  </data>
+  <data name="graficoAnimacion.Text" xml:space="preserve">
+    <value>controlGrafico1</value>
+  </data>
+  <data name="&gt;&gt;pBHigiene.Name" xml:space="preserve">
+    <value>pBHigiene</value>
+  </data>
+  <data name="LPuntosVida.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="mIGenerarNuevaMascota.Text" xml:space="preserve">
+    <value>Generar Nueva Mascota</value>
+  </data>
+  <data name="LNumeroNivel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="pBEducacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 10</value>
+  </data>
+  <data name="&gt;&gt;LPuntosVida.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.Name" xml:space="preserve">
+    <value>pBSeleccionado</value>
+  </data>
+  <data name="&gt;&gt;tOtros.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mIGenerarNuevaMascota.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lCapacidad.Text" xml:space="preserve">
+    <value>N/S</value>
+  </data>
+  <data name="LHigiene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 0</value>
+  </data>
+  <data name="mILibro.Text" xml:space="preserve">
+    <value>Libro (20)</value>
+  </data>
+  <data name="&gt;&gt;LNivel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bUsar.Text" xml:space="preserve">
+    <value>Usar</value>
+  </data>
+  <data name="mILimpieza.Text" xml:space="preserve">
+    <value>Limpieza</value>
+  </data>
+  <data name="LDiversion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 12</value>
+  </data>
+  <data name="&gt;&gt;tOtros.Name" xml:space="preserve">
+    <value>tOtros</value>
+  </data>
+  <data name="&gt;&gt;pBEducacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lFps.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LEducacion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="&gt;&gt;pBHambre.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;LDiversion.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBEducacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="&gt;&gt;BVerInventario.Parent" xml:space="preserve">
+    <value>PBotones</value>
+  </data>
+  <data name="tEducadores.Text" xml:space="preserve">
+    <value>Educadores</value>
+  </data>
+  <data name="&gt;&gt;PGraficos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LHigiene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 12</value>
+  </data>
+  <data name="bConexiones.Text" xml:space="preserve">
+    <value>Conexiones</value>
+  </data>
+  <data name="&gt;&gt;pBHigiene.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BJuegos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="LHigiene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="BVerInventario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pBDinero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pBPuntosVida.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LDiversion.Text" xml:space="preserve">
+    <value>Diversión:</value>
+  </data>
+  <data name="tOtros.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="&gt;&gt;PBotones.Parent" xml:space="preserve">
+    <value>PGraficos</value>
+  </data>
+  <data name="lFps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 180</value>
+  </data>
+  <data name="&gt;&gt;mIEducacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VentanaPrincipal</value>
+  </data>
+  <data name="lFps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 20</value>
+  </data>
+  <data name="&gt;&gt;LHambre.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.Name" xml:space="preserve">
+    <value>bEliminar</value>
+  </data>
+  <data name="&gt;&gt;LHigiene.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;lFps.Parent" xml:space="preserve">
+    <value>PGraficos</value>
+  </data>
+  <data name="pInventario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 191</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PGraficos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;mIAlimentos.Name" xml:space="preserve">
+    <value>mIAlimentos</value>
+  </data>
+  <data name="&gt;&gt;LHambre.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tCuraciones.Text" xml:space="preserve">
+    <value>Curaciones</value>
+  </data>
+  <data name="&gt;&gt;mIBotiquin.Name" xml:space="preserve">
+    <value>mIBotiquin</value>
+  </data>
+  <data name="bEliminar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mIOtros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mILibro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LDiversion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="&gt;&gt;PBotones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tLimpiadores.Text" xml:space="preserve">
+    <value>Limpiadores</value>
+  </data>
+  <data name="&gt;&gt;lDinero.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;pBEducacion.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LSalud.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="MIVerInventario.Text" xml:space="preserve">
+    <value>Ver Inventario</value>
+  </data>
+  <data name="tLimpiadores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="&gt;&gt;BVerInventario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pBDinero.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="bEliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="&gt;&gt;LSalud.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;mIBocadillo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBDiversion.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="lTextoCapacidad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BJuegos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LEducacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="&gt;&gt;pInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="graficoAnimacion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mILibro.Name" xml:space="preserve">
+    <value>mILibro</value>
+  </data>
+  <data name="BJuegos.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LNivel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 0</value>
+  </data>
+  <data name="mICompras.Text" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;tOtros.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pBSalud.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;LPuntosVida.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBDinero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 28</value>
+  </data>
+  <data name="&gt;&gt;pBSalud.Name" xml:space="preserve">
+    <value>pBSalud</value>
+  </data>
+  <data name="&gt;&gt;MIArchivo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBEducacion.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBPuntosVida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 43</value>
+  </data>
+  <data name="pBDiversion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 10</value>
+  </data>
+  <data name="mIBocadillo.Text" xml:space="preserve">
+    <value>Bocadillo (10)</value>
+  </data>
+  <data name="mIPatito.Text" xml:space="preserve">
+    <value>Patito (80)</value>
+  </data>
+  <data name="&gt;&gt;pBDiversion.Name" xml:space="preserve">
+    <value>pBDiversion</value>
+  </data>
+  <data name="&gt;&gt;mITermometro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LSalud.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mIAlimentos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bConexiones.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="tInventario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PGraficos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;graficoAnimacion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MIArchivo.Name" xml:space="preserve">
+    <value>MIArchivo</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LNumeroNivel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuVentanaPrincipal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LHigiene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LHambre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8pt</value>
+  </data>
+  <data name="&gt;&gt;PInformacion.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LPuntosVida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 28</value>
+  </data>
+  <data name="&gt;&gt;mIEducacion.Name" xml:space="preserve">
+    <value>mIEducacion</value>
+  </data>
+  <data name="tInventario.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pInventario.Parent" xml:space="preserve">
+    <value>PGraficos</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.Name" xml:space="preserve">
+    <value>tCuraciones</value>
+  </data>
+  <data name="mILibro.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LEducacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="&gt;&gt;MIVerInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PBotones.Name" xml:space="preserve">
+    <value>PBotones</value>
+  </data>
+  <data name="&gt;&gt;mIPatito.Name" xml:space="preserve">
+    <value>mIPatito</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LEducacion.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mICerebro.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bEliminar.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="&gt;&gt;mIBocadillo.Name" xml:space="preserve">
+    <value>mIBocadillo</value>
+  </data>
+  <data name="PInformacion.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="mIOtros.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="&gt;&gt;bConexiones.Parent" xml:space="preserve">
+    <value>PBotones</value>
+  </data>
+  <data name="pBSeleccionado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="lNombreSeleccionado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="PGraficos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 212</value>
+  </data>
+  <data name="&gt;&gt;tInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LHambre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 12</value>
+  </data>
+  <data name="lDinero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="&gt;&gt;bConexiones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBDinero.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk32BgAAAAAAADYAAAAoAAAAGAAAABgAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA////////////////////////////////////////////////////////////////////
+        ////////////////////AAAAAAAA////////////////////////////////////////////////////
+        ////////////////////////////////////AAAAAAAA////////////////////////////////////
+        ////////////////////////////////////////////////////AAAAAAAA////////////////////
+        ////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAAAAAA////
+        ////////////GkFzGkFzGkFzg6fag6fag6fag6fag6fag6fag6fag6fag6faAAAA////////////////
+        ////AAAAAAAA////////////AAAAGkFzg6fag6fag6fag6fag6fag6fag6fag6fag6fag6fag6fag6fa
+        AAAA////////////////AAAAAAAA////////////GkFzGkFzg6fag6fag6fag6fag6fag6fag6fag6fa
+        g6fag6fag6fag6fag6faAAAA////////////AAAAAAAA////////////GkFzg6fag6fag6fag6faAAAA
+        g6faAAAAFQ83Vj0Vg6faG053g6fag6fag6faAAAA////////////AAAAAAAA////////////GkFzg6fa
+        g6fag6fag6faVj0VHgwJg6fag6fag6fag6fag6fag6fag6fag6faAAAA////////////AAAAAAAA////
+        ////////GkFzGkFzg6fag6fag6faVj0VsJJPg6fag6fasJJPd14bg6fag6fag6fag6faAAAA////////
+        ////AAAAAAAA////////////AAAAGkFzg6fag6fag6faVj0Vg6fag6fag6fag6fag6fag6fag6fag6fa
+        AAAA////////////////AAAAAAAA////////////////////AAAAGkFzg6fag6fag6fag6fag6fag6fa
+        g6fag6fag6fag6fa////////////////////AAAAAAAA////////////////////////////GkFzg6fa
+        g6fag6fag6fag6fag6fag6fag6faAAAA////////////////////AAAAAAAA////////////////////
+        ////////////GkFzg6fag6fag6fag6fag6fag6faAAAA////////////////////////AAAAAAAA////
+        ////////////////////////////////AAAAGkFzg6faGkFzAAAA////////////////////////////
+        ////AAAAAAAA////////////////////////////////////////AAAAAAAAAAAA////////////////
+        ////////////////////AAAAAAAA////////////////////////////////////////GkFzg6fag6fa
+        AAAA////////////////////////////////AAAAAAAA////////////////////////////////////
+        AAAAg6fag6fag6fag6fa////////////////////////////////AAAAAAAA////////////////////
+        ////////////AAAAg6faAAAAg6faGkFzg6fag6faAAAA////////////////////////AAAAAAAA////
+        ////////////////////////AAAAGkFzAAAAGkFzAAAAAAAAGkFzg6faAAAA////////////////////
+        ////AAAAAAAA////////////////////////////////////////AAAA////////////////////////
+        ////////////////////AAAAAAAA////////////////////////////////////////////////////
+        ////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="tAlimentos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 108</value>
+  </data>
+  <data name="&gt;&gt;lFps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDiversion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mIEducacion.Text" xml:space="preserve">
+    <value>Educación</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 268</value>
+  </data>
+  <data name="mITermometro.Text" xml:space="preserve">
+    <value>Termómetro (20)</value>
+  </data>
+  <data name="&gt;&gt;BVerInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tInventario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 131</value>
+  </data>
+  <data name="MIOpciones.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dame una Vida</value>
+  </data>
+  <data name="&gt;&gt;mIGenerarNuevaMascota.Name" xml:space="preserve">
+    <value>mIGenerarNuevaMascota</value>
+  </data>
+  <data name="&gt;&gt;bConexiones.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tInventario.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;MISalir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PInformacion.Name" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;mICerebro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pInventario.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PBotones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;LNivel.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;LNivel.Name" xml:space="preserve">
+    <value>LNivel</value>
+  </data>
+  <data name="&gt;&gt;graficoAnimacion.Type" xml:space="preserve">
+    <value>Microsoft.CompactFramework.Design.UnsafeControl, Microsoft.CompactFramework.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;mICuraciones.Name" xml:space="preserve">
+    <value>mICuraciones</value>
+  </data>
+  <data name="&gt;&gt;pBHigiene.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="&gt;&gt;mITermometro.Name" xml:space="preserve">
+    <value>mITermometro</value>
+  </data>
+  <data name="LPuntosVida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 12</value>
+  </data>
+  <data name="&gt;&gt;PBotones.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PGraficos.Name" xml:space="preserve">
+    <value>PGraficos</value>
+  </data>
+  <data name="&gt;&gt;LPuntosVida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MISalir.Name" xml:space="preserve">
+    <value>MISalir</value>
+  </data>
+  <data name="pBHigiene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 10</value>
+  </data>
+  <data name="&gt;&gt;pBPuntosVida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.Name" xml:space="preserve">
+    <value>lNombreSeleccionado</value>
+  </data>
+  <data name="lNombreSeleccionado.Text" xml:space="preserve">
+    <value>No Seleccionado</value>
+  </data>
+  <data name="&gt;&gt;PGraficos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LNivel.Text" xml:space="preserve">
+    <value>Nivel:</value>
+  </data>
+  <data name="mIAlimentos.Text" xml:space="preserve">
+    <value>Alimentos</value>
+  </data>
+  <data name="PInformacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 212</value>
+  </data>
+  <data name="LNumeroNivel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 12</value>
+  </data>
+  <data name="&gt;&gt;pBHambre.Parent" xml:space="preserve">
+    <value>PInformacion</value>
+  </data>
+  <data name="lTextoCapacidad.Text" xml:space="preserve">
+    <value>Capacidad:</value>
+  </data>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>POCKET_PC_2003_PORTRAIT</value>
+  </metadata>
+  <metadata name="MenuVentanaPrincipal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>47</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="segundo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>175, 13</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Spanish</value>
+  </metadata>
+</root>

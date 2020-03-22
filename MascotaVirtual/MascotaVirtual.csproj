@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4526B94-3FBD-4DD9-AE3E-2E0090C9082C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MascotaVirtual</RootNamespace>
+    <AssemblyName>MascotaVirtual</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>3C41C503-53EF-4c2a-8DD4-A8217CAD115E</PlatformID>
+    <OSVersion>4.20</OSVersion>
+    <DeployDirSuffix>MascotaVirtual</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DocumentationFile>bin\Debug\MascotaVirtual.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DocumentationFile>bin\Release\MascotaVirtual.XML</DocumentationFile>
+  </PropertyGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="InTheHand.Net.Bluetooth, Version=1.6.51222.0, Culture=neutral, PublicKeyToken=ea38caa273134499" />
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.IrDA" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataGrid" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="Comunicaciones\Batalla\Controlador\ControladorBatalla.cs" />
+    <Compile Include="Comunicaciones\Batalla\Modelo\AtributosMascota.cs" />
+    <Compile Include="Comunicaciones\Batalla\Vista\VentanaBatalla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comunicaciones\Batalla\Vista\VentanaBatalla.Designer.cs">
+      <DependentUpon>VentanaBatalla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comunicaciones\CapasProtocolos\Bluetooth.cs" />
+    <Compile Include="Comunicaciones\Chat\ChatSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comunicaciones\Chat\ChatSeleccion.Designer.cs">
+      <DependentUpon>ChatSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comunicaciones\CompraVenta\CompraVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comunicaciones\CompraVenta\CompraVenta.Designer.cs">
+      <DependentUpon>CompraVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comunicaciones\CapasProtocolos\IComunicaciones.cs" />
+    <Compile Include="Comunicaciones\CapasProtocolos\Internet.cs" />
+    <Compile Include="Comunicaciones\VentanaComunicaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comunicaciones\CapasProtocolos\Infrarrojos.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="ControlVentanas\ControlVentanas.cs" />
+    <Compile Include="Interface\Controles\ControlAnimacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Interface\Controles\ControlGrafico.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Interface\Controles\ImagenDatos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Interface\Sonido\Sonido.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="VidaMascota\Vista\VentanaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VidaMascota\Vista\VentanaPrincipal.Designer.cs">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuegos\Cementerio\Controlador\Cementerio.cs" />
+    <Compile Include="Minijuegos\Cementerio\Modelo\Lapida.cs" />
+    <Compile Include="Minijuegos\Pong\Controlador\Controlador.cs" />
+    <Compile Include="Minijuegos\Pong\Modelo\Bala.cs" />
+    <Compile Include="Minijuegos\Pong\Modelo\Pelota.cs" />
+    <Compile Include="Minijuegos\Pong\Modelo\Puntuacion.cs" />
+    <Compile Include="Minijuegos\Pong\Modelo\Raqueta.cs" />
+    <Compile Include="Minijuegos\Pong\Vista\ControlDobleBuffer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Minijuegos\Pong\Vista\VentanaPong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuegos\Pong\Vista\VentanaPong.designer.cs">
+      <DependentUpon>VentanaPong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuegos\Puntuaciones\ListaPuntuaciones.cs" />
+    <Compile Include="Minijuegos\Puntuaciones\VentanaPuntuaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuegos\Puntuaciones\VentanaPuntuaciones.Designer.cs">
+      <DependentUpon>VentanaPuntuaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuegos\Cementerio\Vista\VentanaCementerio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuegos\Cementerio\Vista\VentanaCementerio.Designer.cs">
+      <DependentUpon>VentanaCementerio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuegos\Minijuegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuegos\Minijuegos.Designer.cs">
+      <DependentUpon>Minijuegos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuegos\Palomas\Controlador\JuegoPalomas.cs" />
+    <Compile Include="Minijuegos\Palomas\Modelo\Paloma.cs" />
+    <Compile Include="Minijuegos\Palomas\Vista\VentanaPalomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuegos\Palomas\Vista\VentanaPalomas.Designer.cs">
+      <DependentUpon>VentanaPalomas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VidaMascota\Modelo\Objetos\Alimento.cs" />
+    <Compile Include="Utilidades\DirectorioRaiz.cs" />
+    <Compile Include="Utilidades\GiradorImagenes.cs" />
+    <Compile Include="VidaMascota\Modelo\Componentes\Componente.cs" />
+    <Compile Include="VidaMascota\Modelo\Componentes\DatosComponente.cs" />
+    <Compile Include="VidaMascota\Modelo\Componentes\ListaComponentes.cs" />
+    <Compile Include="VidaMascota\Modelo\Componentes\NodoComponente.cs" />
+    <Compile Include="VidaMascota\Controlador\ControladorVida.cs">
+    </Compile>
+    <Compile Include="VidaMascota\Modelo\Objetos\Curador.cs" />
+    <Compile Include="VidaMascota\Modelo\Objetos\Educador.cs" />
+    <Compile Include="VidaMascota\Modelo\Objetos\Limpiador.cs" />
+    <Compile Include="VidaMascota\Modelo\Objetos\ListaObjetos.cs" />
+    <Compile Include="VidaMascota\Modelo\Mascota.cs" />
+    <Compile Include="VidaMascota\Modelo\Objetos\NodoObjeto.cs" />
+    <Compile Include="VidaMascota\Modelo\Objetos\Objeto.cs" />
+    <Compile Include="VidaMascota\Modelo\MascotaSerializable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Comunicaciones\Batalla\Vista\VentanaBatalla.es-ES.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaBatalla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\Batalla\Vista\VentanaBatalla.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaBatalla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\Chat\ChatSeleccion.es-ES.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChatSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\Chat\ChatSeleccion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChatSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\CompraVenta\CompraVenta.es-ES.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CompraVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\CompraVenta\CompraVenta.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CompraVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\VentanaComunicaciones.es-ES.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaComunicaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicaciones\VentanaComunicaciones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaComunicaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaMascota\Vista\VentanaPrincipal.es.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaMascota\Vista\VentanaPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuegos\Pong\Vista\VentanaPong.resx">
+      <DependentUpon>VentanaPong.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuegos\Puntuaciones\VentanaPuntuaciones.resx">
+      <DependentUpon>VentanaPuntuaciones.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuegos\Cementerio\Vista\VentanaCementerio.resx">
+      <DependentUpon>VentanaCementerio.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuegos\Minijuegos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Minijuegos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuegos\Palomas\Vista\VentanaPalomas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VentanaPalomas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="archivos\XMLPuntosCementerio.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="archivos\XMLPuntosPaloma.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\bocata.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\botiquin.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\brazoZombieCorbata.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\cabezaZombieCorbata.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\casa.ico" />
+    <Content Include="graficos\cerebro.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\cerebroPelota.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\cuerpoReves.bmp" />
+    <Content Include="graficos\cuerpoZombieAndando.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\higiene.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\libro.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\krunchys.bmp" />
+    <Content Include="graficos\palomaMuertaFlip.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\palomaMuerta.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\animacionPaloma.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\bala.bmp" />
+    <Content Include="graficos\campo.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\corazon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\paloma.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\palomaflip.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\pieDerechoAndando.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\pieIzquierdoAndando.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\pista.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\pildora.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\silla.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\noSeleccionado.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\termometro.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\tumba.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\vendas.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\zombi.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\zombieRaqueta.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sonidos\ay.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sonidos\disparo.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="graficos\lapidasAnimacion.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sonidos\recarga.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sonidos\sinbalas.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tEducadores.Name" xml:space="preserve">
+    <value>tEducadores</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionadoRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSalir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNombreObservado.Name" xml:space="preserve">
+    <value>lNombreObservado</value>
+  </data>
+  <data name="&gt;&gt;tcInventarios.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tEducadores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="&gt;&gt;tcInventarioRemoto.Name" xml:space="preserve">
+    <value>tcInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bSeleccionar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 144</value>
+  </data>
+  <data name="tLimpiadoresRemoto.Text" xml:space="preserve">
+    <value>Limpiadores</value>
+  </data>
+  <data name="bOferta.Text" xml:space="preserve">
+    <value>Oferta</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pObjetosPropios.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;bRechazar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lNumeroObservado.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pInventario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="lCapacidad.Text" xml:space="preserve">
+    <value>N/S</value>
+  </data>
+  <data name="bAceptar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tcInventarioRemoto.Parent" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;tOtrosRemoto.Parent" xml:space="preserve">
+    <value>tcInventarioRemoto</value>
+  </data>
+  <data name="lNombreSeleccionadoRemoto.Text" xml:space="preserve">
+    <value>No Seleccionado</value>
+  </data>
+  <data name="&gt;&gt;pObjetosPropios.Name" xml:space="preserve">
+    <value>pObjetosPropios</value>
+  </data>
+  <data name="tAlimentos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lNumeroObservado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 182</value>
+  </data>
+  <data name="pInventarioRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionarRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tEducadoresRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="tOtrosRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tAlimentos.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tOtros.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="tCuraciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bOfertar.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lTextoCapacidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 163</value>
+  </data>
+  <data name="tOtrosRemoto.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pBObjetoObservado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bOfertar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bInventarios.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pObjetosPropios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tEducadores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;bRechazar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lNumeroObservado.Text" xml:space="preserve">
+    <value>N/S</value>
+  </data>
+  <data name="&gt;&gt;bOferta.Name" xml:space="preserve">
+    <value>bOferta</value>
+  </data>
+  <data name="pBSeleccionado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 145</value>
+  </data>
+  <data name="&gt;&gt;bAceptar.Name" xml:space="preserve">
+    <value>bAceptar</value>
+  </data>
+  <data name="pObjetosPropios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="&gt;&gt;pObjetosPropios.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;pInventario.Name" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="pObjetosRemotos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 50</value>
+  </data>
+  <data name="&gt;&gt;pObjetosPropios.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tCuraciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lCapacidadRemoto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;bOfertar.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="lNombreSeleccionadoRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 146</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioPropio.Parent" xml:space="preserve">
+    <value>tcInventarios</value>
+  </data>
+  <data name="tAlimentos.Text" xml:space="preserve">
+    <value>Alimentos</value>
+  </data>
+  <data name="lTextoCapacidad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.Name" xml:space="preserve">
+    <value>lCapacidad</value>
+  </data>
+  <data name="pBSeleccionadoRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pObjetosRemotos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lObjetosPropios.Text" xml:space="preserve">
+    <value>Objetos Propios:</value>
+  </data>
+  <data name="tLimpiadores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lCapacidadObservado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 166</value>
+  </data>
+  <data name="&gt;&gt;bSalir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lTextoCapacidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="&gt;&gt;tOtros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bSeleccionarRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 145</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bInventarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="lNombreSeleccionadoRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionadoRemoto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lCapacidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 179</value>
+  </data>
+  <data name="pBSeleccionadoRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 146</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Objetos Remotos:</value>
+  </data>
+  <data name="&gt;&gt;tcInventarios.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lNumeroObservado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pOferta.Name" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;bRechazar.Name" xml:space="preserve">
+    <value>bRechazar</value>
+  </data>
+  <data name="&gt;&gt;tcInventarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionar.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tInventario.Name" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="tAlimentosRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;bInventarios.Name" xml:space="preserve">
+    <value>bInventarios</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tOtrosRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="bSeleccionar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.Name" xml:space="preserve">
+    <value>tLimpiadores</value>
+  </data>
+  <data name="pObjetosRemotos.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bRechazar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 206</value>
+  </data>
+  <data name="lObjetosPropios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="tEducadores.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pObjetosRemotos.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;bAceptar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tAlimentosRemoto.Parent" xml:space="preserve">
+    <value>tcInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionadoRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tcInventarioRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 131</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioPropio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pBSeleccionado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pBObjetoObservado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 147</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioRemoto.Parent" xml:space="preserve">
+    <value>tcInventarios</value>
+  </data>
+  <data name="pObjetosPropios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 50</value>
+  </data>
+  <data name="tOtros.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tLimpiadores.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadoresRemoto.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tCuracionesRemoto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tLimpiadoresRemoto.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tcInventarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 238</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioPropio.Name" xml:space="preserve">
+    <value>tPInventarioPropio</value>
+  </data>
+  <data name="tCuracionesRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="bOferta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tCuraciones.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lNCapacidadRemoto.Parent" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tEducadoresRemoto.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pBObjetoObservado.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="tcInventarios.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tLimpiadoresRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tPInventarioRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadRemoto.Name" xml:space="preserve">
+    <value>lCapacidadRemoto</value>
+  </data>
+  <data name="bEliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 50</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.Name" xml:space="preserve">
+    <value>tAlimentos</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadRemoto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bOferta.Parent" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="&gt;&gt;lObjetosPropios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lNombreSeleccionado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 145</value>
+  </data>
+  <data name="tOtros.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadores.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="lCapacidadRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionadoRemoto.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionarRemoto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bAceptar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 206</value>
+  </data>
+  <data name="&gt;&gt;tCuracionesRemoto.Parent" xml:space="preserve">
+    <value>tcInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioRemoto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tCuracionesRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionadoRemoto.Name" xml:space="preserve">
+    <value>lNombreSeleccionadoRemoto</value>
+  </data>
+  <data name="lCapacidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="tcInventarioRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bAceptar.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioRemoto.Name" xml:space="preserve">
+    <value>tPInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;tInventario.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="tOtros.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;bRechazar.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="tOtrosRemoto.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="&gt;&gt;lNombreObservado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pObjetosRemotos.Name" xml:space="preserve">
+    <value>pObjetosRemotos</value>
+  </data>
+  <data name="lTextoCapacidad.Text" xml:space="preserve">
+    <value>Capacidad:</value>
+  </data>
+  <data name="lCapacidadObservado.Text" xml:space="preserve">
+    <value>Capacidad:</value>
+  </data>
+  <data name="&gt;&gt;bOfertar.Name" xml:space="preserve">
+    <value>bOfertar</value>
+  </data>
+  <data name="bRechazar.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;bAceptar.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lCapacidadRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 164</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.Parent" xml:space="preserve">
+    <value>tInventario</value>
+  </data>
+  <data name="&gt;&gt;tcInventarioRemoto.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionado.Name" xml:space="preserve">
+    <value>pBSeleccionado</value>
+  </data>
+  <data name="lCapacidadObservado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="lNCapacidadRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 180</value>
+  </data>
+  <data name="&gt;&gt;tEducadoresRemoto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lObjetosPropios.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pInventarioRemoto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tEducadores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadObservado.Name" xml:space="preserve">
+    <value>lCapacidadObservado</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadObservado.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;tOtros.Name" xml:space="preserve">
+    <value>tOtros</value>
+  </data>
+  <data name="tPInventarioRemoto.Text" xml:space="preserve">
+    <value>Inventario Remoto</value>
+  </data>
+  <data name="&gt;&gt;bSalir.Parent" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="tCuracionesRemoto.Text" xml:space="preserve">
+    <value>Curaciones</value>
+  </data>
+  <data name="tPInventarioPropio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tLimpiadoresRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="bSeleccionar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 57</value>
+  </data>
+  <data name="&gt;&gt;pBObjetoObservado.Name" xml:space="preserve">
+    <value>pBObjetoObservado</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pInventarioRemoto.Name" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="tLimpiadores.Text" xml:space="preserve">
+    <value>Limpiadores</value>
+  </data>
+  <data name="&gt;&gt;pInventarioRemoto.Parent" xml:space="preserve">
+    <value>tPInventarioRemoto</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Compra Venta - Dame una Vida</value>
+  </data>
+  <data name="&gt;&gt;bOferta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tEducadoresRemoto.Text" xml:space="preserve">
+    <value>Educadores</value>
+  </data>
+  <data name="bSalir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="&gt;&gt;tcInventarioRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioPropio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bInventarios.Text" xml:space="preserve">
+    <value>Inventarios</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadoresRemoto.Parent" xml:space="preserve">
+    <value>tcInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lNCapacidadRemoto.Text" xml:space="preserve">
+    <value>N/S</value>
+  </data>
+  <data name="tOtros.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="&gt;&gt;tPInventarioRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pOferta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadObservado.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bInventarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="bSeleccionar.Text" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CompraVenta</value>
+  </data>
+  <data name="&gt;&gt;tOtrosRemoto.Name" xml:space="preserve">
+    <value>tOtrosRemoto</value>
+  </data>
+  <data name="&gt;&gt;lCapacidad.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;bEliminar.Name" xml:space="preserve">
+    <value>bEliminar</value>
+  </data>
+  <data name="bOfertar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 206</value>
+  </data>
+  <data name="&gt;&gt;bOferta.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pInventario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 213</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="&gt;&gt;bInventarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tCuraciones.Text" xml:space="preserve">
+    <value>Curaciones</value>
+  </data>
+  <data name="&gt;&gt;lNumeroObservado.Name" xml:space="preserve">
+    <value>lNumeroObservado</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadoresRemoto.Name" xml:space="preserve">
+    <value>tLimpiadoresRemoto</value>
+  </data>
+  <data name="bEliminar.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tCuracionesRemoto.Name" xml:space="preserve">
+    <value>tCuracionesRemoto</value>
+  </data>
+  <data name="lNCapacidadRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadRemoto.Parent" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="bEliminar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 147</value>
+  </data>
+  <data name="bRechazar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 27</value>
+  </data>
+  <data name="tEducadoresRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lCapacidadRemoto.Text" xml:space="preserve">
+    <value>Capacidad:</value>
+  </data>
+  <data name="bSalir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tLimpiadores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 105</value>
+  </data>
+  <data name="lNombreObservado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="tAlimentosRemoto.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lNumeroObservado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="bInventarios.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="bOfertar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 27</value>
+  </data>
+  <data name="bOferta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 3</value>
+  </data>
+  <data name="&gt;&gt;lCapacidadObservado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pOpciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 53</value>
+  </data>
+  <data name="&gt;&gt;pInventario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tAlimentosRemoto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bSeleccionarRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 56</value>
+  </data>
+  <data name="lNombreSeleccionado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="&gt;&gt;pOferta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pOpciones.Name" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="bSeleccionarRemoto.Text" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="&gt;&gt;tOtros.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tEducadoresRemoto.Name" xml:space="preserve">
+    <value>tEducadoresRemoto</value>
+  </data>
+  <data name="bSalir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 28</value>
+  </data>
+  <data name="&gt;&gt;lNCapacidadRemoto.Name" xml:space="preserve">
+    <value>lNCapacidadRemoto</value>
+  </data>
+  <data name="&gt;&gt;lObjetosPropios.Name" xml:space="preserve">
+    <value>lObjetosPropios</value>
+  </data>
+  <data name="pObjetosRemotos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 86</value>
+  </data>
+  <data name="&gt;&gt;lObjetosPropios.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcInventarios.Name" xml:space="preserve">
+    <value>tcInventarios</value>
+  </data>
+  <data name="tInventario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pOferta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 238</value>
+  </data>
+  <data name="bOferta.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pInventarioRemoto.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lNCapacidadRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="pOpciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 241</value>
+  </data>
+  <data name="tAlimentosRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 108</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 68</value>
+  </data>
+  <data name="&gt;&gt;bInventarios.Parent" xml:space="preserve">
+    <value>pOpciones</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionadoRemoto.Name" xml:space="preserve">
+    <value>pBSeleccionadoRemoto</value>
+  </data>
+  <data name="&gt;&gt;tAlimentos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bOfertar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pInventario.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lNCapacidadRemoto.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bRechazar.Text" xml:space="preserve">
+    <value>Rechazar</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionarRemoto.Parent" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="tInventario.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pInventario.Parent" xml:space="preserve">
+    <value>tPInventarioPropio</value>
+  </data>
+  <data name="&gt;&gt;tEducadoresRemoto.Parent" xml:space="preserve">
+    <value>tcInventarioRemoto</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.Name" xml:space="preserve">
+    <value>lTextoCapacidad</value>
+  </data>
+  <data name="bAceptar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 27</value>
+  </data>
+  <data name="&gt;&gt;lNumeroObservado.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;bAceptar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pObjetosRemotos.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionadoRemoto.Parent" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="bEliminar.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="tCuracionesRemoto.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tLimpiadoresRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBSeleccionadoRemoto.Parent" xml:space="preserve">
+    <value>pInventarioRemoto</value>
+  </data>
+  <data name="pInventarioRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 214</value>
+  </data>
+  <data name="tPInventarioPropio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 215</value>
+  </data>
+  <data name="lObjetosPropios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 1</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bOfertar.Text" xml:space="preserve">
+    <value>Ofertar</value>
+  </data>
+  <data name="&gt;&gt;tAlimentosRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tOtrosRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lTextoCapacidad.Parent" xml:space="preserve">
+    <value>pInventario</value>
+  </data>
+  <data name="bSalir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="tAlimentos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 108</value>
+  </data>
+  <data name="&gt;&gt;tOtrosRemoto.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 294</value>
+  </data>
+  <data name="&gt;&gt;pBObjetoObservado.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tAlimentosRemoto.Name" xml:space="preserve">
+    <value>tAlimentosRemoto</value>
+  </data>
+  <data name="tcInventarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tInventario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 131</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lNombreObservado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 148</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pInventarioRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tInventario.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pInventario.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tcInventarioRemoto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tPInventarioRemoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 212</value>
+  </data>
+  <data name="lCapacidadObservado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="tEducadores.Text" xml:space="preserve">
+    <value>Educadores</value>
+  </data>
+  <data name="pBObjetoObservado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="lNombreObservado.Text" xml:space="preserve">
+    <value>No Seleccionado</value>
+  </data>
+  <data name="&gt;&gt;lNombreObservado.Parent" xml:space="preserve">
+    <value>pOferta</value>
+  </data>
+  <data name="&gt;&gt;bSalir.Name" xml:space="preserve">
+    <value>bSalir</value>
+  </data>
+  <data name="bSeleccionarRemoto.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tPInventarioPropio.Text" xml:space="preserve">
+    <value>Inventario Propio</value>
+  </data>
+  <data name="&gt;&gt;lNombreSeleccionado.Name" xml:space="preserve">
+    <value>lNombreSeleccionado</value>
+  </data>
+  <data name="lNombreSeleccionado.Text" xml:space="preserve">
+    <value>No Seleccionado</value>
+  </data>
+  <data name="&gt;&gt;lNombreObservado.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tCuraciones.Name" xml:space="preserve">
+    <value>tCuraciones</value>
+  </data>
+  <data name="tAlimentosRemoto.Text" xml:space="preserve">
+    <value>Alimentos</value>
+  </data>
+  <data name="pOferta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tCuracionesRemoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tEducadoresRemoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionarRemoto.Name" xml:space="preserve">
+    <value>bSeleccionarRemoto</value>
+  </data>
+  <data name="&gt;&gt;pOferta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bSeleccionar.Name" xml:space="preserve">
+    <value>bSeleccionar</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>POCKET_PC_2003_PORTRAIT</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Spanish (Spain)</value>
+  </metadata>
+</root>

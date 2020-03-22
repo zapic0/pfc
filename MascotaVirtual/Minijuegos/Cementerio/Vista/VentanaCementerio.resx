@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="animacion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>11, 12</value>
+  </metadata>
+  <metadata name="activador.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>113, 12</value>
+  </metadata>
+  <metadata name="nivel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 12</value>
+  </metadata>
+  <metadata name="segundo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>284, 12</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lPuntuacion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="lPuntuacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 15</value>
+  </data>
+  <data name="lPuntuacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="lPuntuacion.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lPuntuacion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lPuntuacion.Name" xml:space="preserve">
+    <value>lPuntuacion</value>
+  </data>
+  <data name="&gt;&gt;lPuntuacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lPuntuacion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lPuntuacion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bRecargar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 235</value>
+  </data>
+  <data name="bRecargar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bRecargar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bRecargar.Text" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="&gt;&gt;bRecargar.Name" xml:space="preserve">
+    <value>bRecargar</value>
+  </data>
+  <data name="&gt;&gt;bRecargar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bRecargar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bRecargar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AnimacionJuego.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="AnimacionJuego.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 227</value>
+  </data>
+  <data name="AnimacionJuego.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AnimacionJuego.Text" xml:space="preserve">
+    <value>controlAnimacion1</value>
+  </data>
+  <data name="&gt;&gt;AnimacionJuego.Name" xml:space="preserve">
+    <value>AnimacionJuego</value>
+  </data>
+  <data name="&gt;&gt;AnimacionJuego.Type" xml:space="preserve">
+    <value>Microsoft.CompactFramework.Design.UnsafeControl, Microsoft.CompactFramework.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;AnimacionJuego.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AnimacionJuego.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="menuCementerio.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>452, 9</value>
+  </metadata>
+  <data name="nuevoJuego.Text" xml:space="preserve">
+    <value>Nuevo Juego</value>
+  </data>
+  <data name="Salir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="menuItem1.Text" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="verPuntuaciones.Text" xml:space="preserve">
+    <value>Puntuaciones</value>
+  </data>
+  <data name="Opciones.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="lVidasRestantes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 95</value>
+  </data>
+  <data name="lVidasRestantes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="lVidasRestantes.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lVidasRestantes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lVidasRestantes.Name" xml:space="preserve">
+    <value>lVidasRestantes</value>
+  </data>
+  <data name="&gt;&gt;lVidasRestantes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lVidasRestantes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lVidasRestantes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lBalasRestantes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 175</value>
+  </data>
+  <data name="lBalasRestantes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 14</value>
+  </data>
+  <data name="lBalasRestantes.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lBalasRestantes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lBalasRestantes.Name" xml:space="preserve">
+    <value>lBalasRestantes</value>
+  </data>
+  <data name="&gt;&gt;lBalasRestantes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lBalasRestantes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lBalasRestantes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pBVida.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3uAAAAAAAAAHYAAAAoAAAADwAAAA8AAAABAAQAAAAAAAAAAADEDgAAxA4AABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////wAA
+        AAkAAAAAAAAAmZAAAAAAAAmZmQAAAAAAmZmZkAAAAAmZmZmZAAAAmZmZmZmQAAmZmZmZmZAACZmZmZmZ
+        mQCZmZmZmZmZkJmZmZmZmZmQCZmZmZmZmQAJmZmZmZmZAACZmZCZmZAAAAmQAACZAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="pBVida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 95</value>
+  </data>
+  <data name="pBVida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="&gt;&gt;pBVida.Name" xml:space="preserve">
+    <value>pBVida</value>
+  </data>
+  <data name="&gt;&gt;pBVida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBVida.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pBVida.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pBBalas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3uAAAAAAAAAHYAAAAoAAAADwAAAA8AAAABAAQAAAAAAAAAAADEDgAAxA4AABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////wAA
+        mZmZkAAAAACZmZmQAAAAAJmZmZAAAAAAmZmZkAAAAACZmZmQAAAAAJmZmZAAAAAAmZmZkAAAAACZmZmQ
+        AAAAAJmZmZAAAAAAmZmZkAAAAAC7u7uwAAAAALu7u7AAAAAAC7u7AAAAAAAAu7AAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="pBBalas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 174</value>
+  </data>
+  <data name="pBBalas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="&gt;&gt;pBBalas.Name" xml:space="preserve">
+    <value>pBBalas</value>
+  </data>
+  <data name="&gt;&gt;pBBalas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBBalas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pBBalas.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lGameOver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="lGameOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 63</value>
+  </data>
+  <data name="lGameOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 38</value>
+  </data>
+  <data name="lGameOver.Text" xml:space="preserve">
+    <value>Se acabó el juego</value>
+  </data>
+  <data name="lGameOver.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lGameOver.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lGameOver.Name" xml:space="preserve">
+    <value>lGameOver</value>
+  </data>
+  <data name="&gt;&gt;lGameOver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lGameOver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lGameOver.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lInstrucciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 127</value>
+  </data>
+  <data name="lInstrucciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 38</value>
+  </data>
+  <data name="lInstrucciones.Text" xml:space="preserve">
+    <value>Pulsa Archivo -&gt; Nuevo Juego para iniciar una nueva partida</value>
+  </data>
+  <data name="lInstrucciones.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lInstrucciones.Name" xml:space="preserve">
+    <value>lInstrucciones</value>
+  </data>
+  <data name="&gt;&gt;lInstrucciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lInstrucciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lInstrucciones.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>POCKET_PC_2003_PORTRAIT</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Spanish (Spain)</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>37</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 268</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cementerio</value>
+  </data>
+  <data name="&gt;&gt;animacion.Name" xml:space="preserve">
+    <value>animacion</value>
+  </data>
+  <data name="&gt;&gt;animacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;activador.Name" xml:space="preserve">
+    <value>activador</value>
+  </data>
+  <data name="&gt;&gt;activador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nivel.Name" xml:space="preserve">
+    <value>nivel</value>
+  </data>
+  <data name="&gt;&gt;nivel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;segundo.Name" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="&gt;&gt;segundo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuCementerio.Name" xml:space="preserve">
+    <value>menuCementerio</value>
+  </data>
+  <data name="&gt;&gt;menuCementerio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem1.Name" xml:space="preserve">
+    <value>menuItem1</value>
+  </data>
+  <data name="&gt;&gt;menuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nuevoJuego.Name" xml:space="preserve">
+    <value>nuevoJuego</value>
+  </data>
+  <data name="&gt;&gt;nuevoJuego.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Salir.Name" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="&gt;&gt;Salir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opciones.Name" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="&gt;&gt;Opciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;verPuntuaciones.Name" xml:space="preserve">
+    <value>verPuntuaciones</value>
+  </data>
+  <data name="&gt;&gt;verPuntuaciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VentanaCementerio</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
